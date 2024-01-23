@@ -8,7 +8,7 @@ import java.time.temporal.Temporal;
 import java.util.stream.IntStream;
 
 /**
- * Dummy class for other leetcode-style problems
+ * Dummy class for non-leetcode problems
  */
 public class P0_FizzBuzz {
 
@@ -46,5 +46,18 @@ public class P0_FizzBuzz {
       Utils.printPassFail(true);
 
       return Duration.between(start,end);
+   }
+
+
+   // -------------------------------- Other Non-LeetCode Problems ---------------------------------
+   /**
+    * @return idx of target elem, or -1 if not present
+    */
+   private static int binarySearch(int[] arr, int lIdx, int rIdx, int target) {
+      if (lIdx>rIdx) return -1;
+      int mid = lIdx + (rIdx-lIdx)/2;
+      if (arr[mid]>target) return binarySearch(arr,lIdx,mid-1,target);
+      if (arr[mid]<target) return binarySearch(arr,mid+1,rIdx,target);
+      return mid;
    }
 }
