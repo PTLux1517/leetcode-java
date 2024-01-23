@@ -1,10 +1,14 @@
+package com.github.ptlux1517.leetcode.medium;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
 import java.util.HashSet;
 
 
-public class P3 {
+public class P3_Longest_Substring_Without_Repeating_Characters {
 
    int probNum = 3;
    String probName = "Longest Substring Without Repeating Characters";

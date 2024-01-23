@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode.easy;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
@@ -6,7 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class P228 {
+public class P228_Summary_Ranges {
 
    int probNum = 228;
    String probName = "Summary Ranges";

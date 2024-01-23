@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode.medium;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
@@ -5,7 +9,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-public class P15 {
+public class P15_3Sum {
 
    int probNum = 15;
    String probName = "3Sum";
@@ -43,7 +47,7 @@ public class P15 {
 //      List<List<Integer>> emptyList = List.of(List.of());
 //      List<List<Integer>> solution = emptyList;
 //      if (nums.length < 3) return emptyList;
-//      P1 p1 = new P1();
+//      com.github.ptlux1517.leetcode.easy.P1 p1 = new com.github.ptlux1517.leetcode.easy.P1();
 //      Set<Integer> solutionIndices = new HashSet<>();
 //      for (int i=0; i<nums.length-2; i++) {
 //         int target = -nums[i];
@@ -61,7 +65,7 @@ public class P15 {
 //
 //         }
 //      }
-//      int[] x = new P1().twoSum(nums,0);
+//      int[] x = new com.github.ptlux1517.leetcode.easy.P1().twoSum(nums,0);
 //
 //      //set of seen i's (if complement map key exists, no need to store i's in set. first search of complement pairs found all pairs)
 //      //map of seen complements (sums) to unique addend pairs

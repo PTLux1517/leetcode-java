@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode.easy;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
@@ -6,7 +10,7 @@ import java.util.Queue;
 import java.util.function.Function;
 
 
-public class P226 {
+public class P226_Invert_Binary_Tree {
 
    int probNum = 226;
    String probName = "Invert Binary Tree";

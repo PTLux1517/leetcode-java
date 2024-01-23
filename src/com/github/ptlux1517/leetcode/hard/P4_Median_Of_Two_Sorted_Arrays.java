@@ -1,9 +1,13 @@
+package com.github.ptlux1517.leetcode.hard;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
 
 
-public class P4 {
+public class P4_Median_Of_Two_Sorted_Arrays {
 
    int probNum = 4;
    String probName = "Median of Two Sorted Arrays";

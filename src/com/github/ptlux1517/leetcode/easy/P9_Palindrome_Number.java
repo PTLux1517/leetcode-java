@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode.easy;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
@@ -5,7 +9,7 @@ import java.util.*;
 import java.util.stream.IntStream;
 
 
-public class P9 {
+public class P9_Palindrome_Number {
 
    int probNum = 9;
    String probName = "Palindrome Number";

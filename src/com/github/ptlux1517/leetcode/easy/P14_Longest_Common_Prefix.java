@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode.easy;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
@@ -5,7 +9,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 
-public class P14 {
+public class P14_Longest_Common_Prefix {
 
    int probNum = 14;
    String probName = "Longest Common Prefix";

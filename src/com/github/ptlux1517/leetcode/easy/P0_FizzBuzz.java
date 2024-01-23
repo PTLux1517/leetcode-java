@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode.easy;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
@@ -6,7 +10,7 @@ import java.util.stream.IntStream;
 /**
  * Dummy class for other leetcode-style problems
  */
-public class P0 {
+public class P0_FizzBuzz {
 
    int probNum = 0;
    String probName = "Fizzbuzz";

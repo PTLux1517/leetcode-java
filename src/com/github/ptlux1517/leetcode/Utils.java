@@ -1,3 +1,5 @@
+package com.github.ptlux1517.leetcode;
+
 public class Utils {
 
    public static void printPassFail(boolean passCondition) {

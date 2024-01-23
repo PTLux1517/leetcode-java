@@ -1,9 +1,13 @@
+package com.github.ptlux1517.leetcode.medium;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
 
 
-public class P2 {
+public class P2_Add_Two_Numbers {
 
    int probNum = 2;
    String probName = "Add Two Numbers";

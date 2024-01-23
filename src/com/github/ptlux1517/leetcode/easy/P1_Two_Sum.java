@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode.easy;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
@@ -7,7 +11,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 
-public class P1 {
+public class P1_Two_Sum {
 
    int probNum = 1;
    String probName = "Two Sum";

@@ -1,3 +1,7 @@
+package com.github.ptlux1517.leetcode;
+
+import com.github.ptlux1517.leetcode.Utils;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.temporal.Temporal;
