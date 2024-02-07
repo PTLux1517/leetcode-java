@@ -16,7 +16,7 @@ public class P226_Invert_Binary_Tree {
    String probName = "Invert Binary Tree";
 
 
-   public class TreeNode {
+   public static class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;

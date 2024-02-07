@@ -51,12 +51,10 @@ public class P228_Summary_Ranges {
 
    public Duration run() {
       /* Provided input */
-//      int[] arg1 = new int[] {0,1,2,4,5,7};
       int[] arg1 = new int[] {0,2,3,4,6,8,9};
 
 
       /* Expected output */
-//      List<String> exp = List.of("0->2","4->5","7");
       List<String> exp = List.of("0","2->4","6","8->9");
 
       /* Computed output with run time */

@@ -14,7 +14,7 @@ public class P2_Add_Two_Numbers {
 
 
    /* LeetCode definition for singly-linked list. */
-   private class ListNode {
+   static class ListNode {
       int val;
       ListNode next;
       ListNode() {}
@@ -51,13 +51,8 @@ public class P2_Add_Two_Numbers {
 
    public Duration run() {
       /* Provided input */
-      ListNode arg1 = new ListNode(2);
-      arg1.next = new ListNode(4);
-      arg1.next.next = new ListNode(3);
-
-      ListNode arg2 = new ListNode(5);
-      arg2.next = new ListNode(6);
-      arg2.next.next = new ListNode(4);
+      ListNode arg1 = new ListNode(2,new ListNode(4,new ListNode(3)));
+      ListNode arg2 = new ListNode(5,new ListNode(6,new ListNode(4)));
 
       /* Expected output */
       String exp = "[7, 0, 8]";
